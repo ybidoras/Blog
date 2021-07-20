@@ -1,0 +1,43 @@
+body{ 
+    color:black
+}
+nav{
+    
+    display : flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+nav h1{
+    font-family: 'Crimson Text' , serif;
+    font-size :30px;
+}
+nav .onglets {
+    margin-top : 35px;
+}
+nav .onglets a{
+    text-decoration : none;
+    color : #7f7e7e;
+    margin-right :10px;
+}
+.articles{
+    margin-top: 30px;
+}
+.articles .article{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.articles.article .left img{
+        height: 300px;
+        width: 500px;
+}
+.articles .article .right {
+    max-width:80% ;
+    margin-left:80px;
+}
+footer{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
